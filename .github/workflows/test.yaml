@@ -5,7 +5,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: uname -a
-  test-tsuchida2:
-    runs-on: ubuntu-18.04
-    steps:
-      - run: uname -a
+      - run: ls -la
