@@ -6,3 +6,6 @@ jobs:
     steps:
       - run: uname -a
       - run: ls -la
+      - name: checkout
+        uses: actions/checkout@v2
+      - run: ls -la
