@@ -3,6 +3,9 @@ on: [push]
 jobs:
   test-tsuchida:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./test/
     steps:
       - run: uname -a
       - run: ls -la
